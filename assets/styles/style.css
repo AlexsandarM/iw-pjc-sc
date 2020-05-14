@@ -1,0 +1,320 @@
+/* GLOBAL STYLES */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f1f1f;
+  font-family: 'Fira Sans', sans-serif;
+  color: #333333;
+  font-size: 100%;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+header {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Nav Bar Style */
+
+.navigation ul {
+  border: 2px solid #474747bf;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  flex: 3;
+}
+
+.navigation .user {
+  flex: 1;
+}
+
+.navigation ul a {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background: #1f1f1f;
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+.logo a {
+  background: #5a5a5a;
+  border: 2px solid #474747bf;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation a:hover {
+  background: #474747bf;
+}
+
+.logo a:hover {
+  background: #ffffff;
+}
+
+/* Main style */
+
+.mySlides img {
+  width: 100%;
+}
+
+::selection {
+  background: #FFF7B6;
+  color: black;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+h2.title {
+  font-size: 1.4rem;
+  padding-top: .75em;
+  padding-bottom: .75em;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+  font-weight: 400;
+}
+
+h2,
+.h2,
+h2.title {
+  font-style: normal;
+  text-transform: uppercase;
+  display: block;
+}
+
+
+/* Divider style */
+
+.feature_divider {
+  border-color: #515152;
+  position: relative;
+  margin-bottom: 1.1em 0;
+}
+
+.feature_divider {
+  width: 100%;
+  display: block;
+  border: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid
+}
+
+.feature_divider:after {
+  content: "";
+  display: block;
+  width: 114px;
+  height: 8px;
+  position: absolute;
+  bottom: -8px;
+  left: calc(50% - 57px);
+  background: #404041
+}
+
+/* Future Products section */
+
+.future-products {
+  text-align: center;
+}
+
+.container>.sction {
+  width: 100%;
+}
+
+.container a img {
+  width: 40%;
+  margin: 1.45em;
+}
+
+/* Article style */
+
+
+/* Footer style */
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer {
+  background-color: #555;
+  color: #bbb;
+  line-height: 1.5;
+}
+
+footer a {
+  text-decoration: none;
+  color: #eee;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.ft-title {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+.container-footer {
+  flex: 1;
+}
+
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
+
+/* Footer main | Newsletter form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input[type="email"] {
+  border: 1px;
+  border-radius: 12px 0 0 12px;
+  padding: 0.625rem;
+  margin-top: 0.3125rem;
+}
+
+input[type="submit"] {
+  background-color: #1f1f1f;
+  border-radius: 0 12px 12px 0;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  padding: 0.625rem 0.9375rem;
+  margin-top: 0.3125rem;
+}
+
+/* Footer social */
+.ft-social {
+  padding: 0 1.875rem 1.25rem;
+}
+
+.ft-social-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px #777 solid;
+  padding-top: 1.25rem;
+}
+
+.ft-social-list li {
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+/* Footer legal */
+.ft-legal {
+  padding: 0.9375rem 1.875rem;
+  background-color: #1f1f1f;
+}
+
+.ft-legal-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ft-legal-list li {
+  margin: 0.125rem 0.625rem;
+  white-space: nowrap;
+}
+
+/* one before the last child */
+.ft-legal-list li:nth-last-child(2) {
+  flex: 1;
+}
+
+/* Tablet layout */
+
+@media all and (max-width: 798px) {
+  .navigation ul {
+    flex-wrap: wrap;
+  }
+
+  .navigation li {
+    flex: 1 1 50%;
+  }
+
+  .navigation .user {
+    flex: 1 1 33.33%;
+  }
+
+  h2.title {
+    font-size: 1.1rem;
+  }
+
+  .container a img {
+    width: 45%;
+    margin: .5em;
+  }
+
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+
+@media only screen and (min-width:1240px) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+
+
+/* Mobile Layout */
+
+@media all and (max-width: 480px) {
+  .navigation li {
+    flex-basis: 100%;
+  }
+
+  .navigation .user {
+    flex-basis: 30%;
+  }
+
+  .logo a img {
+    max-width: 100%;
+  }
+
+  h2.title {
+    font-size: 20px;
+  }
+
+  .container a img {
+    width: 100%;
+  }
+
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
