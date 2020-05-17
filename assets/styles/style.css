@@ -17,8 +17,6 @@ body {
   overflow: auto;
 }
 
-
-
 header {
   max-width: 100%;
   margin: 0 auto;
@@ -26,7 +24,7 @@ header {
 
 /* Nav Bar Style */
 
-.navigation ul {
+/* .navigation ul {
   border: 2px solid #474747bf;
   list-style: none;
   margin: 0;
@@ -68,13 +66,9 @@ header {
 
 .logo a:hover {
   background: #ffffff;
-}
+}  */
 
 /* Main style */
-
-.mySlides img {
-  width: 100%;
-}
 
 ::selection {
   background: #FFF7B6;
@@ -111,9 +105,6 @@ h2.title {
   border-color: #515152;
   position: relative;
   margin-bottom: 1.1em 0;
-}
-
-.feature_divider {
   width: 100%;
   display: block;
   border: 0;
@@ -133,7 +124,6 @@ h2.title {
 }
 
 /* Future Products section */
-
 
 .future-pro-img {
   padding: 5% 0;
@@ -329,6 +319,10 @@ input[type="submit"] {
   flex: 1;
 }
 
+.ft-main {
+  justify-content: space-evenly;
+}
+
 /* Tablet layout */
 
 @media all and (max-width: 720px) {
@@ -353,10 +347,6 @@ input[type="submit"] {
     margin: .5em;
   }
 
-  .ft-main {
-    justify-content: space-evenly;
-  }
-
   .news-block .news-block-subheading {
     display: inline-block;
     margin-top: 20px;
@@ -368,13 +358,6 @@ input[type="submit"] {
   }
 
 }
-
-@media only screen and (min-width:1240px) {
-  .ft-main {
-    justify-content: space-evenly;
-  }
-}
-
 
 /* Mobile Layout */
 
@@ -400,11 +383,19 @@ input[type="submit"] {
   }
 
   .ft-main {
-    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  input[type="email"] {
+    border: 1px;
+    border-radius: 12px ;
+  }
+  
+  input[type="submit"] {
+    border-radius: 12px;
   }
 
   /* latest news */
-
 
   .latest_news {
     margin: 0 15px;

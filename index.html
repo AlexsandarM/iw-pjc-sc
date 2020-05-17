@@ -46,23 +46,58 @@
 
 <body>
    <header class="header">
-      <nav class="navigation">
-         <!-- <div class="logo">
-            <a href="#"><img src="assets/img/logo-pc.png"></a>
-         </div> -->
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Accessories</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li class="user"><a href="#"><i class="fa fa-search"></i></a></li>
-            <li class="user"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
-            <li class="user"><a href="#"><i class="fas fa-user"></i></a></li>
-            <li class="user"><a href="#"><i class="fas fa-sign-out-alt"></i></a></li>
-         </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <a class="navbar-brand" href="#">Computer Shop</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+            aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
 
+         <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mx-auto">
+               <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false">
+                     Products
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#">Action</a>
+                     <a class="dropdown-item" href="#">Another action</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Accessories</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#">Support</a>
+               </li>
+            </ul>
+            <form class="form-inline mx-md-4 my-lg-0">
+               <input class="form-control mr-sm-2 ml-md-0" type="search" placeholder="Search" aria-label="Search">
+               <button class="btn btn-outline-danger my-2 my-sm-0" type="submit"><i class="fas fa-search"
+                     size:2x></i></button>
+            </form>
+
+            <ul class="navbar-nav flex-row mr-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link pr-2"><i class="fas fa-shopping-cart"></i></a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle mr-3 mr-lg-0" id="navbarDropdown" data-toggle="dropdown"
+                     aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i><span class="caret"></span>
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href=""><i class="fas fa-user-tie"></i> User</a>
+                     <a class="dropdown-item" href=""><i class="fas fa-sign-out-alt"></i> Login</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
       </nav>
    </header>
 
@@ -72,19 +107,34 @@
             <li data-target="#mySlides-carousel" data-slide-to="0" class="active"></li>
             <li data-target="#mySlides-carousel" data-slide-to="1"></li>
             <li data-target="#mySlides-carousel" data-slide-to="2"></li>
+            <li data-target="#mySlides-carousel" data-slide-to="3"></li>
+            <li data-target="#mySlides-carousel" data-slide-to="4"></li>
+            <li data-target="#mySlides-carousel" data-slide-to="5"></li>
          </ol>
          <div class="carousel-inner">
             <div class="carousel-item active">
-               <img class="d-block w-100 slider-img" src="assets/img/sager-4k-oled-banner_1600x.png" width="100%"
+               <img class="d-block w-100 slider-img" src="assets/img/slider_10th-gan-2000X720_1600x.jpg" width="100%"
                   alt="slider first img">
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100 slider-img" src="assets/img/sager-banner-1_1600x.png" width="100%"
+               <img class="d-block w-100 slider-img" src="assets/img/slider_10thgen-web-banner__1600x.png" width="100%"
                   alt="slider second img">
             </div>
             <div class="carousel-item">
-               <img class="d-block w-100 slider-img" src="assets/img/10thgen-web-banner_1600x.png" width="100%"
+               <img class="d-block w-100 slider-img" src="assets/img/slider_amdbanner3233_1600x.png" width="100%"
                   alt="slider thirt img">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100 slider-img" src="assets/img/slider_banner_x1600.jpg" width="100%"
+                  alt="slider 4th img">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100 slider-img" src="assets/img/slider_sager-4k-oled-banner_1600x.png" width="100%"
+                  alt="slider 5th img">
+            </div>
+            <div class="carousel-item">
+               <img class="d-block w-100 slider-img" src="assets/img/slider_sager-evolution-banner_1600x.png"
+                  width="100%" alt="slider 6th img">
             </div>
          </div>
          <a class="carousel-control-prev" href="#mySlides-carousel" role="button" data-slide="prev">
@@ -97,8 +147,6 @@
          </a>
       </div>
    </section> <!-- Full-width images slider -->
-
-
 
 
    <div class="section">
@@ -170,7 +218,7 @@
       </div>
       <div class="feature_divider"></div>
 
-   </div> <!-- Product images slider -->
+   </div> <!-- Future Product images slider -->
 
    <!-- <article class="news">
       <h2 class="title">Latest News</h2>
@@ -183,7 +231,7 @@
 
    <div class="container-footer"></div> -->
 
-   <!-- Latest News Section -->
+
    <div class="latest_news">
       <div class="row">
 
@@ -230,8 +278,7 @@
          </div>
 
       </div>
-   </div>
-   </div>
+   </div> <!-- Latest News Section -->
 
    <footer>
       <!-- Footer main -->
@@ -263,7 +310,7 @@
                <li><a href="#">Advertise</a></li>
             </ul>
          </div>
-         <div class="ft-main-item">
+         <div class="ft-main-item footer-form">
             <h2 class="ft-title">Stay Updated</h2>
             <p>Subscribe to our newsletter to get our latest news.</p>
             <form>
