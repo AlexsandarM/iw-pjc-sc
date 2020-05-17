@@ -21,11 +21,46 @@ body {
 /* Nav Bar Style */
 
 .header {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans', sans-serif!important;
   font-size: 1.2rem;
 }
+
 .navbar {
-  background-color: #1F1F1F!important;
+  background-color: #1F1F1F !important;
+}
+
+/*  Mega Menu  */
+
+nav.main .megamenu {
+  padding: 20px 20px;
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  max-width: 1300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.megamenu ul  {
+  list-style-type: none;
+}
+
+.megamenu a {
+  color: #fff;
+}
+
+.dropdown-menu.megamenu.midmenu.show {
+  right: 0;
+}
+
+.dropdown-menu.show {
+  right: 0;
+}
+
+.dropdown-menu {
+  background-color: #C32026!important;
 }
 
 
@@ -349,9 +384,9 @@ input[type="submit"] {
 
   input[type="email"] {
     border: 1px;
-    border-radius: 12px ;
+    border-radius: 12px;
   }
-  
+
   input[type="submit"] {
     border-radius: 12px;
   }
