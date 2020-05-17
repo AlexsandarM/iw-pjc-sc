@@ -17,56 +17,17 @@ body {
   overflow: auto;
 }
 
-header {
-  max-width: 100%;
-  margin: 0 auto;
-}
 
 /* Nav Bar Style */
 
-/* .navigation ul {
-  border: 2px solid #474747bf;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.header {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1.2rem;
+}
+.navbar {
+  background-color: #1F1F1F!important;
 }
 
-.navigation li {
-  flex: 3;
-}
-
-.navigation .user {
-  flex: 1;
-}
-
-.navigation ul a {
-  color: white;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-decoration: none;
-  background: #1f1f1f;
-  padding: 20px 5px;
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  line-height: 1.6em;
-}
-
-.logo a {
-  background: #5a5a5a;
-  border: 2px solid #474747bf;
-  display: flex;
-  justify-content: center;
-}
-
-.navigation a:hover {
-  background: #474747bf;
-}
-
-.logo a:hover {
-  background: #ffffff;
-}  */
 
 /* Main style */
 
