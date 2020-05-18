@@ -149,7 +149,7 @@ nav.main .megamenu {
 
 .searchbar:hover>.search_input {
   padding: 0 10px;
-  width: 250px;
+  width: 120px;
   caret-color: red;
   transition: width 0.4s linear;
   background-color: #353b48;
