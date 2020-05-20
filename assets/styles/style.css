@@ -142,6 +142,11 @@ nav.main .megamenu {
   background-color: #59b5fa;
 }
 
+.img-responsive {
+  width: 120px;
+  height: 120px;
+}
+
 /* Search bar styles */
 
 .searchbar {
