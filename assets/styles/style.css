@@ -29,6 +29,10 @@ body {
   background-color: #1F1F1F !important;
 }
 
+.navbar-brand span{
+  color: #C32026;
+}
+
 /*  Mega Menu  */
 
 nav.main .megamenu {
