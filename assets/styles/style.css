@@ -197,7 +197,7 @@ nav.main .megamenu {
 .search_icon {
   height: 40px;
   width: 40px;
-  float: right;
+  float: left;
   display: flex;
   justify-content: center;
   align-items: center;
