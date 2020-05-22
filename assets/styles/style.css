@@ -460,13 +460,15 @@ a:hover {
   justify-content: space-evenly;
 }
 
+/* Desktop lg Layout */
+
 @media (max-width: 992px) {
   .search_icon {
     float: left;
   }
 }
 
-/* Tablet layout */
+/* Tablet md layout */
 
 @media all and (max-width: 767px) {
 
@@ -549,7 +551,7 @@ a:hover {
 
 }
 
-/* Mobile Layout */
+/* Mobile sm Layout */
 
 @media all and (max-width: 576px) {
 
