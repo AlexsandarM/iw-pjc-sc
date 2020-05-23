@@ -98,6 +98,10 @@ nav.main .megamenu {
   opacity: 0.95;
 }
 
+#sc-dropdown {
+  padding-left: 10px;
+}
+
 /* Login navbar */
 
 #login-dp {
@@ -135,6 +139,10 @@ nav.main .megamenu {
   text-align: center;
 }
 
+#login-dropdown {
+  padding-left: 10px;
+}
+
 .btn-fb {
   color: #fff !important;
   background-color: #3b5998 !important;
@@ -165,7 +173,7 @@ nav.main .megamenu {
 .searchbar {
   margin-bottom: auto;
   margin-top: auto;
-  height: 60px;
+  height: auto;
 
   padding: 10px;
   padding-left: 0;
